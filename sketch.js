@@ -421,7 +421,7 @@ function draw() {
  
    ground.visible = true;
 
-   if(distance >= 3000){
+   if(distance >= 30000){
      planet.visible = true;
      planet.velocityY = 3;
      obstacleG.destroyEach();
